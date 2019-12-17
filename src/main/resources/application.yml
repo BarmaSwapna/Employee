@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: employee
+server:
+  port : 9000
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://eurekas:8761/eureka
